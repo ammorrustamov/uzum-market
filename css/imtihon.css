@@ -1,13 +1,16 @@
-* {
+
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
+
 
 .container {
   max-width: 1200px;
   width: 100%;
-  height: 20px;
+  
   margin: auto;
   padding-left: 20px;
   padding-right: 20px;
@@ -215,9 +218,7 @@
 .Elektronika{
   width: 15px;
 }
-.pampirs{
-width: 1170px;
-}
+
 @media only screen and (max-width: 980px) {
   .site-header-list {
     position: fixed;
@@ -293,4 +294,3 @@ width: 1170px;
   .footer-bottom {
     font-size: 12px;
   }
-}
